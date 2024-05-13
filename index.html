@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+    <title>Frontend Mentor | Interactive rating component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="rating-component">
+      <div class="header-icon">
+        <img src="images/icon-star.svg" alt="" />
+      </div>
+      <p class="rating-question">How did we do?</p>
+      <p class="rating-description">
+        Please let us know how we did with your support request. All feedback is
+        appreciated to help us improve our offering!
+      </p>
+      <div class="rating-radio-button">
+        <div class="c radio-container-one">
+          <input type="radio" name="rate" id="one" />
+          <label for="one">1</label>
+        </div>
+
+        <div class="c radio-container-two">
+          <input type="radio" name="rate" id="two" /> <label for="two">2</label>
+        </div>
+
+        <div class="c radio-container-three">
+          <input type="radio" name="rate" id="three" />
+          <label for="three">3</label>
+        </div>
+
+        <div class="c radio-container-four">
+          <input type="radio" name="rate" id="four" />
+          <label for="four">4</label>
+        </div>
+
+        <div class="c radio-container-five">
+          <input type="radio" name="rate" id="five" />
+          <label for="five">5</label>
+        </div>
+      </div>
+      <button class="submit">SUBMIT</button>
+    </div>
+
+    <div class="thankyou-component">
+      <div class="header-image">
+        <img src="images/illustration-thank-you.svg" alt="" />
+      </div>
+      <p class="result">You selected 4 our of 5</p>
+      <p class="message-title">Thank you!</p>
+      <p class="message">
+        We appreciate you taking the time to give a rating. If you ever need
+        more support, don’t hesitate to get in touch!
+      </p>
+    </div>
+
+    <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  </body>
+</html>
